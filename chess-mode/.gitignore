@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+engine/
+models/**/*.weights
+piece-test-*/

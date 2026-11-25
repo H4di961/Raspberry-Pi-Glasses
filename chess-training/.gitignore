@@ -1,0 +1,7 @@
+.venv/
+yolo-pilot/
+runs/
+settings/
+*.pt
+__pycache__/
+yolo-round-*/

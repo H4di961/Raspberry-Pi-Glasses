@@ -1,0 +1,7727 @@
+{
+  "schema_version": 1,
+  "classes": [
+    "white-pawn",
+    "white-rook",
+    "white-bishop",
+    "white-knight",
+    "white-king",
+    "white-queen",
+    "black-pawn",
+    "black-rook",
+    "black-bishop",
+    "black-king",
+    "black-queen",
+    "black-knight"
+  ],
+  "box_format": "absolute pixels: x_min,y_min,x_max,y_max",
+  "images": [
+    {
+      "id": "01",
+      "file": "images/01.png",
+      "source": "01.jpeg.png",
+      "sha256": "9e4fa34ddcca0c272be51291955657eb2ee0990d04947b999918e9079cdfdc94",
+      "width": 967,
+      "height": 538,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            177,
+            318,
+            240,
+            365
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            244,
+            332,
+            282,
+            374
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            296,
+            336,
+            332,
+            372
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            345,
+            339,
+            376,
+            376
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            387,
+            339,
+            419,
+            384
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            435,
+            353,
+            463,
+            386
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            480,
+            352,
+            507,
+            392
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            520,
+            351,
+            548,
+            386
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            159,
+            360,
+            205,
+            419
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            534,
+            381,
+            575,
+            442
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            282,
+            371,
+            316,
+            428
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            424,
+            375,
+            460,
+            433
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            222,
+            367,
+            269,
+            423
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            482,
+            384,
+            516,
+            442
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            376,
+            369,
+            410,
+            429
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            317,
+            368,
+            357,
+            432
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            285,
+            217,
+            306,
+            249
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            317,
+            221,
+            343,
+            253
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            353,
+            220,
+            372,
+            249
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            387,
+            228,
+            407,
+            254
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            419,
+            232,
+            441,
+            256
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            452,
+            236,
+            468,
+            261
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            477,
+            230,
+            498,
+            259
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            513,
+            238,
+            530,
+            266
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            297,
+            189,
+            321,
+            229
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            512,
+            206,
+            533,
+            238
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            322,
+            193,
+            344,
+            223
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            482,
+            206,
+            504,
+            239
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            356,
+            193,
+            378,
+            228
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            457,
+            202,
+            476,
+            235
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            423,
+            195,
+            439,
+            229
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            386,
+            190,
+            404,
+            225
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "file": "images/02.png",
+      "source": "02.jpeg.png",
+      "sha256": "d76382bcc4e0d1b30fbb015c3f935e2c75fb71c87aa1daeac7fce92357200a4c",
+      "width": 962,
+      "height": 537,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": [
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            432,
+            207,
+            455,
+            248
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            464,
+            212,
+            487,
+            248
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            280,
+            369,
+            317,
+            408
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            323,
+            377,
+            353,
+            408
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            366,
+            377,
+            398,
+            405
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            409,
+            377,
+            436,
+            409
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            446,
+            376,
+            474,
+            409
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            487,
+            382,
+            518,
+            418
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            531,
+            379,
+            555,
+            416
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            567,
+            372,
+            597,
+            410
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            256,
+            403,
+            306,
+            454
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            576,
+            410,
+            628,
+            463
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            352,
+            406,
+            383,
+            460
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            481,
+            404,
+            511,
+            457
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            435,
+            405,
+            469,
+            460
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            389,
+            408,
+            420,
+            462
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            308,
+            405,
+            344,
+            452
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            533,
+            419,
+            560,
+            462
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            341,
+            249,
+            372,
+            279
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            372,
+            252,
+            392,
+            280
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            557,
+            247,
+            571,
+            275
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            524,
+            248,
+            541,
+            282
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            495,
+            248,
+            517,
+            281
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            472,
+            241,
+            487,
+            278
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            438,
+            252,
+            461,
+            279
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            404,
+            250,
+            425,
+            275
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            351,
+            220,
+            372,
+            251
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            557,
+            218,
+            577,
+            256
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            407,
+            218,
+            427,
+            256
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            499,
+            218,
+            522,
+            245
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            374,
+            224,
+            393,
+            252
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            527,
+            222,
+            546,
+            250
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "file": "images/03.png",
+      "source": "03.jpeg.png",
+      "sha256": "f4b82840e9a3586a1e35b76ef140f6adc374831530a33cd8a4446b754027a24a",
+      "width": 963,
+      "height": 542,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            411,
+            318,
+            430,
+            347
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            435,
+            317,
+            451,
+            341
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            461,
+            318,
+            479,
+            339
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            487,
+            316,
+            503,
+            340
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            511,
+            316,
+            528,
+            337
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            537,
+            310,
+            555,
+            334
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            565,
+            311,
+            581,
+            333
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            594,
+            310,
+            614,
+            333
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            367,
+            412,
+            395,
+            449
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            409,
+            413,
+            438,
+            447
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            439,
+            410,
+            462,
+            441
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            474,
+            416,
+            493,
+            446
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            513,
+            413,
+            536,
+            441
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            555,
+            408,
+            575,
+            438
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            591,
+            402,
+            609,
+            432
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            628,
+            399,
+            645,
+            433
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            355,
+            436,
+            389,
+            484
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            637,
+            428,
+            660,
+            477
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            431,
+            439,
+            468,
+            491
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            554,
+            428,
+            583,
+            481
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            472,
+            431,
+            507,
+            492
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            516,
+            428,
+            553,
+            485
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            398,
+            434,
+            422,
+            484
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            598,
+            429,
+            627,
+            480
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            408,
+            301,
+            427,
+            318
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            590,
+            285,
+            611,
+            309
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            488,
+            288,
+            503,
+            316
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            513,
+            283,
+            534,
+            314
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            567,
+            282,
+            587,
+            320
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            436,
+            289,
+            447,
+            315
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            541,
+            287,
+            557,
+            303
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            460,
+            290,
+            476,
+            315
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "file": "images/04.png",
+      "source": "04.jpeg.png",
+      "sha256": "8a80f5bf973ac009884f2fa27dac94b8db5f719a36ac65d347b9ba0e64302d57",
+      "width": 962,
+      "height": 542,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": [
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            399,
+            241,
+            416,
+            271
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            322,
+            264,
+            341,
+            307
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            279,
+            321,
+            303,
+            359
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            307,
+            300,
+            331,
+            342
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            341,
+            290,
+            360,
+            331
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            372,
+            281,
+            384,
+            318
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            394,
+            271,
+            412,
+            305
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            416,
+            260,
+            435,
+            295
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            441,
+            250,
+            451,
+            282
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            462,
+            242,
+            482,
+            271
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            244,
+            301,
+            272,
+            349
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            452,
+            233,
+            460,
+            255
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            288,
+            286,
+            311,
+            322
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            421,
+            236,
+            440,
+            263
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            348,
+            255,
+            369,
+            292
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            372,
+            247,
+            395,
+            279
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            403,
+            424,
+            424,
+            481
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            444,
+            394,
+            466,
+            447
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            466,
+            376,
+            482,
+            416
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            503,
+            359,
+            520,
+            394
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            521,
+            334,
+            538,
+            378
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            551,
+            326,
+            564,
+            363
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            563,
+            303,
+            574,
+            343
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            580,
+            296,
+            593,
+            324
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            426,
+            444,
+            461,
+            518
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            618,
+            297,
+            635,
+            348
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            494,
+            392,
+            525,
+            446
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            586,
+            327,
+            599,
+            381
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            533,
+            358,
+            555,
+            421
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            562,
+            343,
+            580,
+            403
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            475,
+            416,
+            502,
+            481
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            602,
+            313,
+            617,
+            361
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "file": "images/05.png",
+      "source": "05.jpeg.png",
+      "sha256": "3082bacb6199087bacb88492f2af869b0fb6a4241ec5030c5e55c586cee1899e",
+      "width": 632,
+      "height": 277,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Foreground lineup labelled using user-confirmed order. Background pieces still need labels. Not complete.",
+      "annotations": [
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            148,
+            136,
+            228,
+            257
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            249,
+            132,
+            320,
+            252
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            330,
+            125,
+            397,
+            245
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            399,
+            108,
+            465,
+            246
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            469,
+            98,
+            542,
+            235
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            547,
+            139,
+            612,
+            240
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            305,
+            70,
+            328,
+            116
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            256,
+            62,
+            278,
+            124
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            339,
+            62,
+            359,
+            108
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            37,
+            93,
+            57,
+            151
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            74,
+            85,
+            105,
+            143
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            124,
+            79,
+            164,
+            133
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            187,
+            75,
+            217,
+            122
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            280,
+            63,
+            296,
+            111
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            19,
+            74,
+            29,
+            119
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            54,
+            74,
+            71,
+            115
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            96,
+            73,
+            116,
+            111
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            167,
+            63,
+            183,
+            97
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            243,
+            59,
+            255,
+            89
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            214,
+            62,
+            227,
+            94
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "file": "images/06.png",
+      "source": "06.jpeg.png",
+      "sha256": "07aca340b1609ef9a7089a8ca638baa0bd10644f8e56a97965ed2117200119c7",
+      "width": 642,
+      "height": 305,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Foreground lineup labelled using user-confirmed order. Background pieces still need labels. Not complete.",
+      "annotations": [
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            169,
+            108,
+            235,
+            211
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            246,
+            110,
+            306,
+            216
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            309,
+            106,
+            370,
+            218
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            377,
+            96,
+            435,
+            223
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            440,
+            104,
+            507,
+            224
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            516,
+            138,
+            570,
+            230
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            78,
+            42,
+            89,
+            83
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            23,
+            42,
+            42,
+            77
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            13,
+            53,
+            32,
+            112
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            109,
+            55,
+            128,
+            104
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            171,
+            60,
+            185,
+            99
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            221,
+            60,
+            231,
+            99
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            266,
+            60,
+            279,
+            98
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            321,
+            57,
+            345,
+            105
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            237,
+            53,
+            261,
+            120
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            45,
+            46,
+            72,
+            125
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            144,
+            45,
+            165,
+            120
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            199,
+            48,
+            220,
+            119
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            290,
+            52,
+            314,
+            118
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "file": "images/07.png",
+      "source": "07.jpeg.png",
+      "sha256": "c8be15fc490e7a398abbc065bf8649701fcdca4e930da428f15ccdb85b8afed2",
+      "width": 977,
+      "height": 557,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": [
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            311,
+            301,
+            336,
+            343
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            475,
+            255,
+            489,
+            292
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            121,
+            287,
+            170,
+            334
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            237,
+            332,
+            277,
+            375
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            330,
+            353,
+            367,
+            394
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            396,
+            314,
+            423,
+            351
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            463,
+            393,
+            491,
+            435
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            508,
+            398,
+            534,
+            432
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            558,
+            366,
+            582,
+            398
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            268,
+            378,
+            316,
+            423
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            186,
+            400,
+            243,
+            460
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            455,
+            438,
+            494,
+            493
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            377,
+            374,
+            410,
+            429
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            325,
+            259,
+            353,
+            309
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            64,
+            317,
+            131,
+            356
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            470,
+            339,
+            498,
+            382
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            505,
+            432,
+            537,
+            488
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            514,
+            308,
+            540,
+            369
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            59,
+            355,
+            126,
+            401
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            276,
+            266,
+            310,
+            308
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            341,
+            225,
+            367,
+            257
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            441,
+            283,
+            460,
+            328
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            455,
+            231,
+            470,
+            268
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            511,
+            262,
+            528,
+            290
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            423,
+            202,
+            442,
+            244
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            549,
+            216,
+            578,
+            255
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            550,
+            248,
+            568,
+            282
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            403,
+            243,
+            426,
+            293
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            383,
+            195,
+            405,
+            257
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            143,
+            237,
+            204,
+            292
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            480,
+            279,
+            501,
+            325
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "file": "images/08.png",
+      "source": "08.jpeg.png",
+      "sha256": "a570b0b1f7f596415b4937977fc49cc3b861db2a658215e8ed5f6eeb24005bce",
+      "width": 972,
+      "height": 555,
+      "reviewed": true,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": [
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            214,
+            219,
+            249,
+            271
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            497,
+            276,
+            511,
+            321
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            438,
+            356,
+            460,
+            401
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            490,
+            252,
+            501,
+            293
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            357,
+            292,
+            390,
+            360
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            411,
+            193,
+            431,
+            233
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            410,
+            223,
+            427,
+            255
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            452,
+            216,
+            465,
+            253
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            460,
+            189,
+            480,
+            212
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            514,
+            206,
+            525,
+            237
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            557,
+            201,
+            570,
+            234
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            559,
+            261,
+            575,
+            286
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            270,
+            223,
+            296,
+            260
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            131,
+            305,
+            164,
+            337
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            373,
+            222,
+            394,
+            255
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            410,
+            284,
+            438,
+            333
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            560,
+            277,
+            579,
+            336
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            512,
+            401,
+            541,
+            460
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            142,
+            269,
+            186,
+            308
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            484,
+            327,
+            510,
+            369
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            307,
+            262,
+            340,
+            312
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            491,
+            190,
+            506,
+            233
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            240,
+            358,
+            279,
+            407
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            415,
+            394,
+            449,
+            448
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            91,
+            255,
+            131,
+            293
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            81,
+            288,
+            119,
+            339
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            180,
+            319,
+            221,
+            362
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            187,
+            250,
+            224,
+            290
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            479,
+            367,
+            497,
+            412
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            553,
+            345,
+            586,
+            393
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            311,
+            342,
+            350,
+            386
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            509,
+            374,
+            540,
+            412
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "file": "images/09.png",
+      "source": "09.jpeg.png",
+      "sha256": "e4da4869142ab1e7f86fdffd528dd98a5976f83f1b575c0900b55093308bcf21",
+      "width": 961,
+      "height": 540,
+      "reviewed": false,
+      "excluded": true,
+      "note": "Blurry image: excluded from initial training; retain for later difficult-case testing.",
+      "annotations": []
+    },
+    {
+      "id": "10",
+      "file": "images/10.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.23.jpeg",
+      "sha256": "ecb779d60a378ee4132e2812c72968e4138d91d2fce0eff8402c48a33fdb2dc4",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            921,
+            388,
+            971,
+            468
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            996,
+            425,
+            1032,
+            503
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1184,
+            620,
+            1218,
+            713
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1250,
+            835,
+            1285,
+            948
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1298,
+            938,
+            1347,
+            1062
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1384,
+            969,
+            1451,
+            1090
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            832,
+            683,
+            881,
+            782
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            753,
+            451,
+            808,
+            522
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            686,
+            489,
+            751,
+            592
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1133,
+            913,
+            1217,
+            1054
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            918,
+            463,
+            966,
+            549
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1310,
+            775,
+            1372,
+            892
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            837,
+            459,
+            895,
+            565
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            632,
+            473,
+            679,
+            556
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            1036,
+            847,
+            1116,
+            996
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            1149,
+            461,
+            1223,
+            559
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            814,
+            401,
+            864,
+            462
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            771,
+            533,
+            837,
+            590
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            780,
+            570,
+            815,
+            643
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1056,
+            607,
+            1100,
+            704
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1159,
+            570,
+            1193,
+            630
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1315,
+            674,
+            1378,
+            754
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1480,
+            871,
+            1539,
+            995
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            924,
+            609,
+            1013,
+            727
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            691,
+            643,
+            747,
+            744
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1050,
+            455,
+            1087,
+            556
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1116,
+            614,
+            1176,
+            743
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            1530,
+            640,
+            1607,
+            787
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            872,
+            755,
+            965,
+            922
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            713,
+            406,
+            753,
+            482
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            634,
+            550,
+            707,
+            647
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1351,
+            745,
+            1405,
+            845
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "11",
+      "file": "images/11.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.24.jpeg",
+      "sha256": "6f0c4c78a0390147a68bf11b285f1019ade618bccf2d173af581b9dd6e1780e1",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1406,
+            592,
+            1475,
+            696
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1564,
+            687,
+            1639,
+            802
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1379,
+            533,
+            1431,
+            612
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1197,
+            466,
+            1238,
+            519
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1102,
+            503,
+            1160,
+            606
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            808,
+            480,
+            874,
+            545
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            804,
+            526,
+            881,
+            589
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            841,
+            379,
+            891,
+            445
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            744,
+            567,
+            805,
+            678
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            985,
+            505,
+            1066,
+            633
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1076,
+            392,
+            1123,
+            500
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1167,
+            518,
+            1243,
+            654
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            1592,
+            478,
+            1654,
+            636
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            955,
+            626,
+            1026,
+            788
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            731,
+            381,
+            780,
+            459
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            696,
+            520,
+            740,
+            610
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            1179,
+            381,
+            1241,
+            473
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            1106,
+            693,
+            1202,
+            849
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            660,
+            451,
+            724,
+            528
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            866,
+            431,
+            922,
+            506
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1378,
+            614,
+            1444,
+            752
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            936,
+            414,
+            1001,
+            510
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1213,
+            742,
+            1320,
+            923
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            724,
+            457,
+            780,
+            546
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            944,
+            364,
+            1003,
+            424
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1019,
+            397,
+            1069,
+            464
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            892,
+            588,
+            949,
+            692
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1309,
+            682,
+            1374,
+            794
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1385,
+            747,
+            1459,
+            893
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1473,
+            776,
+            1537,
+            936
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1232,
+            508,
+            1305,
+            612
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            789,
+            422,
+            826,
+            489
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "12",
+      "file": "images/12.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.24 (1).jpeg",
+      "sha256": "b2da3a87bb1fb109bb11d8dd94d81ea740db50a9939f994371a14351d49df622",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            576,
+            427,
+            685,
+            506
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            458,
+            415,
+            534,
+            513
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            363,
+            600,
+            446,
+            700
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1035,
+            857,
+            1115,
+            965
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1653,
+            807,
+            1733,
+            900
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1726,
+            783,
+            1808,
+            894
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1510,
+            723,
+            1574,
+            844
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1146,
+            539,
+            1205,
+            633
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            408,
+            708,
+            517,
+            837
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1579,
+            852,
+            1662,
+            1011
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            602,
+            507,
+            712,
+            639
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1498,
+            623,
+            1562,
+            753
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            502,
+            566,
+            609,
+            674
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            275,
+            737,
+            414,
+            866
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            1438,
+            834,
+            1558,
+            1042
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            840,
+            357,
+            917,
+            504
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1323,
+            509,
+            1390,
+            653
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1431,
+            549,
+            1490,
+            700
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1648,
+            604,
+            1723,
+            760
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1034,
+            487,
+            1117,
+            596
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1031,
+            588,
+            1132,
+            701
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            324,
+            483,
+            422,
+            596
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            538,
+            681,
+            634,
+            792
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            627,
+            730,
+            725,
+            865
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            692,
+            870,
+            815,
+            1015
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            980,
+            662,
+            1071,
+            811
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            706,
+            410,
+            798,
+            561
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1177,
+            590,
+            1254,
+            738
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            1441,
+            394,
+            1530,
+            540
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            1209,
+            866,
+            1341,
+            1053
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            214,
+            565,
+            322,
+            709
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            515,
+            831,
+            670,
+            976
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "13",
+      "file": "images/13.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.24 (2).jpeg",
+      "sha256": "f38a8cf44939ff732fb35c0bd99c36f36d2392389cf87d2f9ce977af0a10488f",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            581,
+            728,
+            673,
+            878
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            376,
+            590,
+            460,
+            673
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            1192,
+            692,
+            1322,
+            906
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            1439,
+            436,
+            1504,
+            564
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            789,
+            488,
+            856,
+            603
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1177,
+            561,
+            1244,
+            681
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            727,
+            751,
+            825,
+            903
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            989,
+            606,
+            1088,
+            725
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1330,
+            520,
+            1383,
+            615
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1416,
+            566,
+            1464,
+            654
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1079,
+            580,
+            1137,
+            704
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1069,
+            520,
+            1132,
+            596
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1639,
+            569,
+            1701,
+            694
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            620,
+            662,
+            695,
+            736
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            694,
+            688,
+            755,
+            774
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            477,
+            550,
+            552,
+            628
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            903,
+            448,
+            989,
+            583
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            1435,
+            690,
+            1503,
+            880
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            600,
+            587,
+            682,
+            672
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            400,
+            673,
+            502,
+            802
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            695,
+            558,
+            784,
+            660
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1470,
+            570,
+            1534,
+            684
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            504,
+            654,
+            592,
+            776
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1543,
+            715,
+            1620,
+            872
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            695,
+            505,
+            771,
+            571
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            570,
+            495,
+            658,
+            581
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            487,
+            604,
+            558,
+            677
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1633,
+            679,
+            1676,
+            802
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1693,
+            681,
+            1785,
+            793
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1488,
+            643,
+            1552,
+            734
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1010,
+            702,
+            1099,
+            829
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1159,
+            534,
+            1197,
+            627
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "14",
+      "file": "images/14.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.24 (3).jpeg",
+      "sha256": "0bc7267159f809aff051aa09292cb801edd85b01d661b3804c23e3a5555a80f3",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            416,
+            730,
+            499,
+            842
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            356,
+            608,
+            447,
+            730
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            513,
+            579,
+            579,
+            697
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1141,
+            521,
+            1184,
+            610
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1247,
+            654,
+            1330,
+            769
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1612,
+            540,
+            1634,
+            598
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1643,
+            534,
+            1685,
+            607
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1487,
+            542,
+            1530,
+            620
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            592,
+            754,
+            681,
+            907
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1635,
+            571,
+            1683,
+            690
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            610,
+            616,
+            689,
+            751
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1422,
+            496,
+            1477,
+            606
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            488,
+            813,
+            566,
+            970
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            572,
+            684,
+            629,
+            793
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            1576,
+            556,
+            1620,
+            731
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            709,
+            492,
+            813,
+            631
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1003,
+            526,
+            1056,
+            638
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1109,
+            558,
+            1146,
+            646
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            670,
+            731,
+            757,
+            869
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            822,
+            746,
+            896,
+            858
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1336,
+            491,
+            1398,
+            605
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1489,
+            474,
+            1555,
+            558
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            286,
+            681,
+            368,
+            798
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1227,
+            498,
+            1282,
+            591
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            977,
+            770,
+            1096,
+            931
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1121,
+            588,
+            1191,
+            718
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            651,
+            556,
+            733,
+            693
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1194,
+            530,
+            1251,
+            653
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            1230,
+            408,
+            1280,
+            522
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            1452,
+            582,
+            1534,
+            779
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            231,
+            728,
+            389,
+            940
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            769,
+            799,
+            884,
+            991
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "15",
+      "file": "images/15.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.24 (4).jpeg",
+      "sha256": "807ab64d37107f6c0a53dee8e8bd003016cf1cb3f5fd121e55d6292e0c3eb2b9",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1451,
+            850,
+            1541,
+            987
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1391,
+            1261,
+            1482,
+            1460
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            1225,
+            444,
+            1265,
+            597
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            569,
+            420,
+            642,
+            564
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            955,
+            504,
+            997,
+            644
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            768,
+            892,
+            872,
+            1059
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1379,
+            725,
+            1457,
+            880
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1103,
+            556,
+            1199,
+            743
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            812,
+            382,
+            870,
+            449
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            814,
+            456,
+            879,
+            544
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            772,
+            474,
+            832,
+            569
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            812,
+            613,
+            897,
+            735
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            988,
+            586,
+            1052,
+            696
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1287,
+            818,
+            1347,
+            963
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1256,
+            894,
+            1353,
+            1057
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1103,
+            1255,
+            1234,
+            1481
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            611,
+            791,
+            718,
+            995
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            1108,
+            401,
+            1176,
+            540
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1138,
+            985,
+            1248,
+            1169
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1519,
+            1020,
+            1643,
+            1225
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            883,
+            417,
+            953,
+            540
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            984,
+            915,
+            1103,
+            1118
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1063,
+            391,
+            1112,
+            490
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1407,
+            954,
+            1488,
+            1126
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            870,
+            550,
+            945,
+            676
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1248,
+            567,
+            1310,
+            700
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            961,
+            440,
+            1015,
+            533
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            979,
+            399,
+            1011,
+            477
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            929,
+            376,
+            984,
+            444
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            796,
+            1054,
+            881,
+            1220
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            854,
+            1201,
+            1036,
+            1457
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1281,
+            1106,
+            1400,
+            1304
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "16",
+      "file": "images/16.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.25.jpeg",
+      "sha256": "c19cee83056024651b7e16085f3800a2ecfcbe4ca01f957db20f28e3666947e2",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1125,
+            1163,
+            1228,
+            1334
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1302,
+            1244,
+            1437,
+            1493
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1554,
+            1026,
+            1656,
+            1218
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1136,
+            536,
+            1202,
+            674
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            776,
+            480,
+            833,
+            570
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            742,
+            425,
+            805,
+            520
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            698,
+            426,
+            758,
+            492
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            800,
+            631,
+            882,
+            721
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            847,
+            411,
+            914,
+            537
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1520,
+            860,
+            1611,
+            1024
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1217,
+            954,
+            1307,
+            1147
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            712,
+            484,
+            783,
+            610
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1369,
+            964,
+            1439,
+            1129
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1645,
+            891,
+            1759,
+            1071
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            914,
+            420,
+            1000,
+            582
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            771,
+            952,
+            898,
+            1187
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            588,
+            461,
+            665,
+            569
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            663,
+            536,
+            715,
+            602
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            651,
+            585,
+            725,
+            689
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            820,
+            708,
+            924,
+            832
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            937,
+            638,
+            1018,
+            769
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1340,
+            799,
+            1403,
+            909
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1395,
+            840,
+            1484,
+            1003
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1527,
+            1225,
+            1656,
+            1456
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1051,
+            585,
+            1166,
+            741
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1330,
+            668,
+            1431,
+            786
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            861,
+            567,
+            930,
+            685
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1006,
+            997,
+            1097,
+            1225
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            411,
+            574,
+            495,
+            738
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            1042,
+            439,
+            1121,
+            575
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1468,
+            731,
+            1546,
+            878
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1698,
+            1112,
+            1864,
+            1367
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "17",
+      "file": "images/17.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.25 (1).jpeg",
+      "sha256": "b5dc342540d7bb9c9e350e0e805ac2eae2d2eae5ba8a5ae77247109424fba983",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1381,
+            407,
+            1460,
+            554
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1006,
+            465,
+            1085,
+            566
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            525,
+            532,
+            662,
+            746
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            904,
+            1081,
+            1070,
+            1321
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            865,
+            678,
+            948,
+            840
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1437,
+            639,
+            1495,
+            785
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            902,
+            492,
+            976,
+            597
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            872,
+            572,
+            962,
+            696
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            871,
+            870,
+            969,
+            1029
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            689,
+            907,
+            826,
+            1062
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            408,
+            1037,
+            538,
+            1195
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1071,
+            526,
+            1141,
+            632
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1179,
+            522,
+            1242,
+            619
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1486,
+            480,
+            1552,
+            596
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1127,
+            708,
+            1199,
+            854
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            960,
+            665,
+            1027,
+            762
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            1468,
+            722,
+            1530,
+            932
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            394,
+            672,
+            525,
+            849
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1197,
+            415,
+            1246,
+            507
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1313,
+            528,
+            1364,
+            630
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1348,
+            555,
+            1403,
+            720
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            560,
+            852,
+            678,
+            1056
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1162,
+            440,
+            1231,
+            530
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            304,
+            749,
+            443,
+            887
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1316,
+            472,
+            1395,
+            546
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1567,
+            562,
+            1656,
+            673
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1521,
+            615,
+            1607,
+            741
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            962,
+            758,
+            1061,
+            893
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            488,
+            825,
+            581,
+            951
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            298,
+            872,
+            435,
+            1009
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            232,
+            951,
+            383,
+            1082
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            730,
+            539,
+            848,
+            695
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "18",
+      "file": "images/18.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.25 (2).jpeg",
+      "sha256": "525387a40463fa5d0b418220b2a7468c424a61828adf22d5022e9acdc849b930",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            840,
+            804,
+            947,
+            893
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1018,
+            446,
+            1129,
+            595
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1472,
+            1157,
+            1579,
+            1279
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1648,
+            844,
+            1773,
+            992
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            574,
+            556,
+            695,
+            643
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            482,
+            474,
+            579,
+            585
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            408,
+            482,
+            491,
+            603
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1634,
+            1163,
+            1783,
+            1318
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            576,
+            370,
+            678,
+            510
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1563,
+            661,
+            1645,
+            809
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            551,
+            618,
+            674,
+            731
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1436,
+            927,
+            1512,
+            1103
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            661,
+            365,
+            797,
+            526
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            1159,
+            1189,
+            1269,
+            1310
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1675,
+            649,
+            1764,
+            790
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1534,
+            869,
+            1623,
+            1036
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            396,
+            647,
+            466,
+            769
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            658,
+            821,
+            743,
+            915
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            965,
+            721,
+            1045,
+            825
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            556,
+            708,
+            674,
+            837
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            945,
+            881,
+            1053,
+            979
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1367,
+            647,
+            1430,
+            793
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1474,
+            735,
+            1544,
+            846
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1774,
+            1040,
+            1948,
+            1157
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1285,
+            476,
+            1399,
+            643
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1028,
+            587,
+            1142,
+            722
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            838,
+            692,
+            947,
+            774
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1318,
+            1088,
+            1426,
+            1230
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            429,
+            965,
+            629,
+            1136
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            849,
+            343,
+            969,
+            502
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1424,
+            536,
+            1537,
+            671
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1823,
+            875,
+            1936,
+            1005
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "19",
+      "file": "images/19.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.25 (3).jpeg",
+      "sha256": "9d8baf5c03853d88dfd03a040b7987298561d9173ccdfd3b248622f7fe06066b",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1533,
+            717,
+            1612,
+            882
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1636,
+            1140,
+            1748,
+            1357
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            1167,
+            348,
+            1254,
+            499
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            528,
+            443,
+            633,
+            605
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            961,
+            463,
+            1018,
+            627
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            964,
+            931,
+            1075,
+            1087
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1134,
+            504,
+            1231,
+            659
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1418,
+            606,
+            1497,
+            745
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            731,
+            335,
+            797,
+            443
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            779,
+            427,
+            857,
+            493
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            763,
+            493,
+            843,
+            564
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            894,
+            627,
+            964,
+            739
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1382,
+            762,
+            1439,
+            878
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1387,
+            832,
+            1471,
+            952
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1386,
+            1180,
+            1537,
+            1399
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            783,
+            854,
+            894,
+            1045
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            1054,
+            317,
+            1111,
+            480
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1302,
+            927,
+            1419,
+            1119
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1633,
+            900,
+            1749,
+            1091
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            848,
+            375,
+            915,
+            481
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1170,
+            895,
+            1289,
+            1085
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1529,
+            834,
+            1613,
+            1017
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1004,
+            309,
+            1047,
+            423
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1010,
+            550,
+            1078,
+            653
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1242,
+            467,
+            1313,
+            621
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            891,
+            312,
+            941,
+            379
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            859,
+            305,
+            904,
+            370
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            915,
+            365,
+            977,
+            476
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1048,
+            1078,
+            1191,
+            1267
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1174,
+            1213,
+            1316,
+            1399
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1509,
+            1016,
+            1607,
+            1192
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            884,
+            530,
+            968,
+            635
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "20",
+      "file": "images/20.jpg",
+      "source": "WhatsApp Unknown 2026-10-02 at 12.59.33.zip / WhatsApp Image 2026-10-02 at 12.59.25 (4).jpeg",
+      "sha256": "e4863deda1554ceccb7599107c3665e74fe300221b84ecc16eda4dba57038d57",
+      "width": 2048,
+      "height": 1536,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1547,
+            1089,
+            1669,
+            1308
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1744,
+            1129,
+            1888,
+            1309
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1715,
+            798,
+            1811,
+            959
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            816,
+            687,
+            915,
+            841
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            1025,
+            423,
+            1093,
+            536
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            556,
+            488,
+            618,
+            589
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            455,
+            431,
+            559,
+            548
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            376,
+            426,
+            457,
+            547
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            547,
+            340,
+            653,
+            475
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            1591,
+            623,
+            1665,
+            793
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            1463,
+            873,
+            1577,
+            1025
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            496,
+            526,
+            615,
+            643
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1681,
+            628,
+            1788,
+            761
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            1571,
+            827,
+            1649,
+            983
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            653,
+            334,
+            767,
+            493
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            1162,
+            1105,
+            1281,
+            1274
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1379,
+            633,
+            1440,
+            779
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1477,
+            712,
+            1577,
+            811
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            1839,
+            997,
+            1969,
+            1135
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            923,
+            778,
+            1003,
+            918
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            927,
+            626,
+            1017,
+            770
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            591,
+            715,
+            686,
+            843
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            509,
+            624,
+            612,
+            768
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            309,
+            555,
+            431,
+            693
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1267,
+            474,
+            1381,
+            631
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            1022,
+            531,
+            1144,
+            680
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            816,
+            580,
+            892,
+            721
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            1313,
+            1001,
+            1489,
+            1212
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            291,
+            812,
+            460,
+            1017
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            825,
+            299,
+            953,
+            497
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1448,
+            532,
+            1536,
+            667
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            1879,
+            819,
+            2009,
+            1020
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "phone",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "21",
+      "file": "images/21.png",
+      "source": "C:\\Users\\hdacc\\OneDrive\\Pictures\\Screenshots\\Screenshot 2026-10-02 125142.png",
+      "sha256": "6a62bf1428e7c1ad08c63eabb1aa26e145f04ec1c25d508f39fe73f996d6f854",
+      "width": 998,
+      "height": 562,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            664,
+            255,
+            689,
+            306
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            809,
+            315,
+            855,
+            373
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            588,
+            371,
+            632,
+            451
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            496,
+            431,
+            543,
+            525
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            502,
+            282,
+            537,
+            344
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            601,
+            426,
+            647,
+            513
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            703,
+            413,
+            770,
+            518
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            279,
+            462,
+            368,
+            538
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            302,
+            415,
+            356,
+            464
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            363,
+            406,
+            415,
+            467
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            417,
+            401,
+            489,
+            480
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            694,
+            306,
+            728,
+            337
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            819,
+            392,
+            847,
+            443
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            648,
+            380,
+            669,
+            458
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            473,
+            362,
+            510,
+            415
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            387,
+            213,
+            426,
+            267
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            747,
+            366,
+            777,
+            433
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            724,
+            289,
+            752,
+            334
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            364,
+            315,
+            422,
+            383
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            694,
+            307,
+            724,
+            367
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            489,
+            219,
+            523,
+            274
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            694,
+            271,
+            719,
+            307
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            350,
+            252,
+            379,
+            298
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            391,
+            250,
+            415,
+            296
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            433,
+            245,
+            460,
+            302
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            549,
+            297,
+            571,
+            342
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            720,
+            332,
+            731,
+            379
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            771,
+            337,
+            794,
+            372
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            791,
+            428,
+            852,
+            495
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            599,
+            245,
+            630,
+            283
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            594,
+            273,
+            619,
+            334
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            608,
+            321,
+            655,
+            365
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "pi-screenshot",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "22",
+      "file": "images/22.png",
+      "source": "C:\\Users\\hdacc\\OneDrive\\Pictures\\Screenshots\\Screenshot 2026-10-02 125245.png",
+      "sha256": "5e6a1a701463ef19e8c3cc731b85550ea007f4ec3ee912cdb05b2b6d10b3b349",
+      "width": 502,
+      "height": 465,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            187,
+            353,
+            219,
+            419
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            232,
+            327,
+            261,
+            369
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            267,
+            310,
+            303,
+            366
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            267,
+            270,
+            296,
+            324
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            405,
+            223,
+            421,
+            252
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            320,
+            202,
+            334,
+            224
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            308,
+            225,
+            333,
+            252
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            364,
+            247,
+            375,
+            268
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            272,
+            201,
+            307,
+            259
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            233,
+            377,
+            293,
+            435
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            391,
+            250,
+            419,
+            284
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            334,
+            290,
+            363,
+            348
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            369,
+            264,
+            386,
+            313
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            226,
+            227,
+            260,
+            280
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            378,
+            191,
+            416,
+            226
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            291,
+            191,
+            309,
+            214
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            11,
+            254,
+            51,
+            321
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            57,
+            252,
+            97,
+            307
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            103,
+            231,
+            139,
+            304
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            244,
+            185,
+            263,
+            216
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            334,
+            204,
+            347,
+            225
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            427,
+            239,
+            446,
+            280
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            138,
+            197,
+            187,
+            246
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            267,
+            198,
+            294,
+            253
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            28,
+            211,
+            57,
+            264
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "pi-screenshot",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "23",
+      "file": "images/23.png",
+      "source": "C:\\Users\\hdacc\\OneDrive\\Pictures\\Screenshots\\Screenshot 2026-10-02 125319.png",
+      "sha256": "81b8b6b5030b41675460806df2e95f2eb4986c1231ca3c33ee11ae9ab59eeb97",
+      "width": 547,
+      "height": 270,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            15,
+            132,
+            65,
+            217
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            426,
+            97,
+            457,
+            135
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            429,
+            161,
+            452,
+            218
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            217,
+            142,
+            245,
+            221
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            403,
+            109,
+            418,
+            154
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            68,
+            72,
+            103,
+            120
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            395,
+            87,
+            419,
+            113
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            178,
+            28,
+            209,
+            81
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            133,
+            29,
+            165,
+            79
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            95,
+            127,
+            123,
+            173
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            76,
+            159,
+            111,
+            209
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            60,
+            187,
+            107,
+            270
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            469,
+            226,
+            521,
+            268
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            456,
+            135,
+            492,
+            194
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            412,
+            131,
+            439,
+            174
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            191,
+            67,
+            213,
+            105
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            252,
+            101,
+            290,
+            159
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            291,
+            130,
+            331,
+            175
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            313,
+            198,
+            348,
+            257
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            222,
+            49,
+            251,
+            94
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            487,
+            188,
+            534,
+            227
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            300,
+            163,
+            340,
+            205
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            275,
+            54,
+            290,
+            81
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            398,
+            108,
+            420,
+            136
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            354,
+            181,
+            405,
+            270
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            299,
+            35,
+            322,
+            71
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            188,
+            77,
+            216,
+            142
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            315,
+            60,
+            345,
+            119
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            324,
+            100,
+            356,
+            168
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            280,
+            53,
+            301,
+            117
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            373,
+            65,
+            398,
+            114
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            496,
+            122,
+            532,
+            177
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "pi-screenshot",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "24",
+      "file": "images/24.png",
+      "source": "C:\\Users\\hdacc\\OneDrive\\Pictures\\Screenshots\\Screenshot 2026-10-02 125440.png",
+      "sha256": "1bbd479c785595ae2dc702af3aa7c1c3f468026495c6cada9fe0d21c77c4275f",
+      "width": 930,
+      "height": 385,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            594,
+            142,
+            628,
+            199
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            765,
+            215,
+            804,
+            271
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            355,
+            104,
+            386,
+            161
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            482,
+            101,
+            516,
+            145
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            280,
+            187,
+            326,
+            266
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            425,
+            158,
+            451,
+            200
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            294,
+            99,
+            344,
+            144
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            456,
+            110,
+            473,
+            147
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            308,
+            153,
+            341,
+            200
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            320,
+            122,
+            356,
+            171
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            449,
+            152,
+            478,
+            197
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            521,
+            177,
+            579,
+            225
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            615,
+            177,
+            642,
+            216
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            772,
+            264,
+            821,
+            312
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            491,
+            129,
+            528,
+            167
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            421,
+            139,
+            453,
+            170
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            284,
+            118,
+            320,
+            184
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            405,
+            242,
+            456,
+            332
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            674,
+            167,
+            709,
+            208
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            649,
+            216,
+            694,
+            268
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            466,
+            165,
+            503,
+            219
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            617,
+            214,
+            658,
+            283
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            653,
+            165,
+            668,
+            213
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            475,
+            255,
+            508,
+            326
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            212,
+            222,
+            267,
+            309
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            348,
+            168,
+            393,
+            229
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            516,
+            232,
+            552,
+            282
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            461,
+            228,
+            499,
+            276
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            548,
+            229,
+            595,
+            289
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            681,
+            291,
+            724,
+            385
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            766,
+            321,
+            818,
+            384
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            701,
+            212,
+            746,
+            262
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "pi-screenshot",
+      "collection_batch": "2026-10-02"
+    },
+    {
+      "id": "25",
+      "file": "images/25.png",
+      "source": "C:\\Users\\hdacc\\OneDrive\\Pictures\\Screenshots\\Screenshot 2026-10-02 125639.png",
+      "sha256": "6943c59a1592c69734ee0fbc14bbbf75692775bcd58bf703fa881a9ca5880fb6",
+      "width": 635,
+      "height": 268,
+      "reviewed": true,
+      "excluded": false,
+      "note": "New October batch: label all visible pieces, including pieces beside the board. Leave unclear images unreviewed.",
+      "annotations": [
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            531,
+            173,
+            562,
+            222
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            575,
+            168,
+            598,
+            215
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            234,
+            143,
+            273,
+            202
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            254,
+            174,
+            295,
+            233
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            281,
+            191,
+            315,
+            234
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            135,
+            72,
+            177,
+            120
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            239,
+            79,
+            273,
+            113
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            540,
+            110,
+            572,
+            143
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            185,
+            167,
+            231,
+            225
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            505,
+            79,
+            528,
+            129
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            300,
+            108,
+            320,
+            166
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            500,
+            127,
+            514,
+            175
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            516,
+            118,
+            527,
+            157
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            528,
+            81,
+            540,
+            115
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            160,
+            133,
+            196,
+            207
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            427,
+            176,
+            469,
+            254
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            254,
+            50,
+            279,
+            89
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            333,
+            76,
+            353,
+            98
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            322,
+            100,
+            347,
+            136
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            348,
+            144,
+            370,
+            195
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            455,
+            80,
+            478,
+            115
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            484,
+            90,
+            512,
+            119
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            481,
+            161,
+            511,
+            221
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            584,
+            145,
+            610,
+            174
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            293,
+            20,
+            331,
+            61
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            421,
+            55,
+            455,
+            91
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            203,
+            69,
+            233,
+            131
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            340,
+            80,
+            363,
+            106
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            308,
+            73,
+            330,
+            124
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            412,
+            75,
+            431,
+            123
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            581,
+            107,
+            613,
+            155
+          ],
+          "provenance": "Manually labelled in review page"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            469,
+            62,
+            489,
+            98
+          ],
+          "provenance": "Manually labelled in review page"
+        }
+      ],
+      "capture_source": "pi-screenshot",
+      "collection_batch": "2026-10-02"
+    }
+  ],
+  "status": "Latest user review imported: 24 included reviewed images, one excluded. Structural validation passed; semantic correctness not independently certified."
+}

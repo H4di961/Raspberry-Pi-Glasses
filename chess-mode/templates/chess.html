@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glasses Chess</title>
+<style>
+*{box-sizing:border-box}body{background:#101010;color:#f5f5f5;font:17px system-ui;max-width:1280px;margin:auto;padding:20px}h1{margin:0}p{line-height:1.5}canvas{width:100%;display:block;background:#222;border-radius:12px}button,select,a.button{font:inherit;padding:10px 14px;margin:5px 0;background:#eee;color:#111;border:0;border-radius:8px;cursor:pointer}button:disabled{opacity:.4;cursor:default}label{display:block;margin:10px 0}.layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(280px,1fr);gap:20px}.panel{background:#1b1b1b;border:1px solid #383838;border-radius:12px;padding:16px}.muted{color:#bbb;font-size:14px}#error{color:white;border-left:3px solid white;padding-left:10px;white-space:pre-wrap}#suggestion{font-size:23px;font-weight:600}#candidates{display:flex;gap:8px;flex-wrap:wrap}#position{display:grid;grid-template-columns:repeat(8,1fr);max-width:320px;margin:12px auto}#position span{aspect-ratio:1;display:grid;place-items:center;font-size:28px;line-height:1;text-shadow:0 1px 1px #444}#position .light{background:#d9d9d9}#position .dark{background:#777}#position span{color:#111}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}#moves{white-space:pre-wrap;overflow-wrap:anywhere}a{color:white}@media(max-width:850px){.layout{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<h1>Glasses Chess</h1><p class="muted">Live board tracking and local Stockfish analysis. No paid API. Game state is kept until the PC server restarts.</p>
+<div class="layout"><main>
+<div class="panel"><p id="status">Connecting to Pi...</p><canvas id="view" width="960" height="540"></canvas>
+<button id="select" disabled>Select corners</button><span id="count"></span>
+<p class="muted">Select corners freezes a frame. Click clockwise from the image's top left. Hold your head still during selection; then move slowly. Reset if the outline drifts.</p></div>
+<div class="panel" style="margin-top:16px"><p id="game-status">Set up the pieces in their normal starting positions.</p><div id="suggestion"></div><p id="engine-status" class="muted"></p><p id="error" role="alert" hidden></p>
+<div id="candidates"></div><label>Actual move (if the visual proposal is missing or wrong)<select id="legal" disabled></select></label><button id="record" disabled>Record selected move</button>
+<p class="muted">Make the physical move first, remove your hand, then confirm the correct move. This version proposes moves from changed squares; it does not identify arbitrary piece arrangements.</p></div>
+</main><aside>
+<div class="panel"><h2>Start game</h2><label>Your colour <select id="side"><option value="white">White</option><option value="black">Black</option></select></label>
+<label>Corner beside a8 <select id="a8"><option value="0">Corner 1</option><option value="1">Corner 2</option><option value="2">Corner 3</option><option value="3">Corner 4</option></select></label>
+<p class="muted">a8 is Black's queenside rook square in the starting position. Corner numbers are shown over the video. Use the outer edge of the 8x8 playing squares, not a decorative border.</p>
+<label><input id="starting" type="checkbox"> All pieces are in the normal starting position.</label><button id="start" disabled>Start game</button></div>
+<div class="panel" style="margin-top:16px"><h2>Recorded position</h2><div id="position"></div><p class="muted">Digital board: White at the bottom. Verify it matches the real board.</p><p id="moves">No moves recorded.</p><div class="row"><button id="undo" disabled>Undo last move</button><a href="/game/pgn">Download PGN</a></div></div>
+</aside></div>
+<script>
+const $=id=>document.getElementById(id), canvas=$('view'),ctx=canvas.getContext('2d');
+let frame=null,image='',points=[],frozen=false,saving=false,revision=0,game=null,arrow=null,legalVersion=-1,actionBusy=false;
+function draw(){
+ if(!frame)return;ctx.drawImage(frame,0,0);ctx.strokeStyle=frozen?'white':'#00ff88';ctx.fillStyle=ctx.strokeStyle;ctx.lineWidth=3;ctx.font='bold 23px system-ui';
+ ctx.beginPath();points.forEach((p,i)=>{if(i)ctx.lineTo(...p);else ctx.moveTo(...p)});if(points.length===4)ctx.closePath();ctx.stroke();
+ points.forEach((p,i)=>{ctx.beginPath();ctx.arc(...p,5,0,Math.PI*2);ctx.fill();ctx.fillText(String(i+1),p[0]+9,p[1]+22)});
+ if(arrow&&!frozen&&points.length===4){const [a,b]=arrow,angle=Math.atan2(b[1]-a[1],b[0]-a[0]);ctx.strokeStyle='#ffe16a';ctx.fillStyle='#ffe16a';ctx.lineWidth=8;ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke();ctx.beginPath();ctx.moveTo(...b);ctx.lineTo(b[0]-24*Math.cos(angle-.5),b[1]-24*Math.sin(angle-.5));ctx.lineTo(b[0]-24*Math.cos(angle+.5),b[1]-24*Math.sin(angle+.5));ctx.closePath();ctx.fill()}
+}
+function controls(){ $('start').disabled=actionBusy||frozen||points.length!==4||!$('starting').checked;$('record').disabled=actionBusy||frozen||!game?.active||!game.stable||!$('legal').value;$('undo').disabled=actionBusy||!game?.moves?.length; }
+function renderGame(g){
+ game=g;arrow=g.arrow||null;$('game-status').textContent=g.status;
+ const pieces={p:'\u265f',r:'\u265c',n:'\u265e',b:'\u265d',q:'\u265b',k:'\u265a',P:'\u2659',R:'\u2656',N:'\u2658',B:'\u2657',Q:'\u2655',K:'\u2654'};
+ if(g.active&&g.version!==legalVersion){legalVersion=g.version;$('legal').replaceChildren();for(const m of g.legal){const option=document.createElement('option');option.value=m.uci;option.textContent=m.san+' ('+m.uci+')';$('legal').append(option)}$('legal').disabled=false;$('position').replaceChildren();let index=0;for(const ch of g.fen.split(' ')[0]){if(ch==='/')continue;const n=/[1-8]/.test(ch)?Number(ch):1;for(let j=0;j<n;j++){const cell=document.createElement('span');cell.className=(Math.floor(index/8)+index%8)%2?'dark':'light';cell.textContent=pieces[ch]||'';$('position').append(cell);index++}}$('moves').textContent=g.moves.length?g.moves.map((m,i)=>(i%2===0?Math.floor(i/2)+1+'. ':'')+m).join(' '):'No moves recorded.';}
+ $('candidates').replaceChildren();if(g.stable)for(const m of g.candidates||[]){const b=document.createElement('button');b.textContent='Confirm '+m.san;b.disabled=actionBusy||frozen;b.onclick=()=>record(m.uci);$('candidates').append(b)}
+ $('suggestion').textContent=arrow?'Suggested move: '+g.engine.san:'';$('engine-status').textContent=g.active?(g.engine.status+(g.engine.evaluation?' | Evaluation for White: '+g.engine.evaluation:'')+(g.changed?' | Suggestion hidden until the move is recorded.':'')):'';controls();
+}
+async function action(url,data={}){if(actionBusy)return;actionBusy=true;revision++;arrow=null;draw();controls();$('error').hidden=true;try{const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),signal:AbortSignal.timeout(12000)});const result=await r.json();if(!r.ok)throw Error(result.error);renderGame(result)}catch(e){$('error').textContent=e.message;$('error').hidden=false}finally{actionBusy=false;controls()}}
+function record(uci){return action('/game/move',{uci,version:game.version})}
+$('starting').onchange=controls;$('start').onclick=()=>{if(game?.active&&!confirm('Reset the recorded game to the normal starting position?'))return;action('/game/start',{side:$('side').value,a8:Number($('a8').value)})};$('record').onclick=()=>record($('legal').value);$('undo').onclick=()=>action('/game/undo');
+$('select').onclick=()=>{if(!frame||saving||actionBusy)return;revision++;frozen=!frozen;points=[];arrow=null;$('select').textContent=frozen?'Cancel selection':'Select corners';$('status').textContent=frozen?'Select four corners on this frozen image.':'Resuming...';$('count').textContent='';draw();controls()};
+canvas.onclick=async e=>{if(!frozen||saving)return;const r=canvas.getBoundingClientRect();points.push([(e.clientX-r.left)*960/r.width,(e.clientY-r.top)*540/r.height]);$('count').textContent=points.length+' / 4';draw();if(points.length!==4)return;saving=true;$('select').disabled=true;try{const r=await fetch('/calibrate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({image,corners:points}),signal:AbortSignal.timeout(12000)});const data=await r.json();if(!r.ok)throw Error(data.error);frozen=false;revision++;$('select').textContent='Select corners';$('status').textContent='Tracking starting...'}catch(e){points=[];$('status').textContent=e.message;$('count').textContent='Select the corners again.'}finally{saving=false;$('select').disabled=false;controls()}};
+async function refresh(){if(!frozen&&!actionBusy){const current=revision;try{const r=await fetch('/state',{cache:'no-store',signal:AbortSignal.timeout(12000)});const data=await r.json();if(!r.ok)throw Error(data.error);const blob=await fetch('data:image/jpeg;base64,'+data.image).then(r=>r.blob());const next=await createImageBitmap(blob);if(frozen||current!==revision){next.close()}else{if(frame)frame.close();frame=next;image=data.image;points=data.corners||[];$('status').textContent=data.status;$('select').disabled=false;renderGame(data.game);draw()}}catch(e){if(!frozen&&current===revision){points=[];arrow=null;draw();$('status').textContent=e.message;if(game)game.stable=false;controls()}}}setTimeout(refresh,70)}refresh();
+</script></body></html>

@@ -1,0 +1,5 @@
+{
+  "run": "C:\\Users\\hdacc\\OneDrive\\Desktop\\ray-ponder\\chess-training\\runs\\round-02",
+  "weights": "C:\\Users\\hdacc\\OneDrive\\Desktop\\ray-ponder\\chess-training\\runs\\round-02\\weights\\best.pt",
+  "validation": "07,08 held out; no independent test set"
+}

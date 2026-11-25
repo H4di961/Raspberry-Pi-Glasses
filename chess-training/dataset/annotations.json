@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "classes": [
+    "white-pawn",
+    "white-rook",
+    "white-bishop",
+    "white-knight",
+    "white-king",
+    "white-queen",
+    "black-pawn",
+    "black-rook",
+    "black-bishop",
+    "black-king",
+    "black-queen",
+    "black-knight"
+  ],
+  "box_format": "absolute pixels: x_min,y_min,x_max,y_max",
+  "images": [
+    {
+      "id": "01",
+      "file": "images/01.png",
+      "source": "01.jpeg.png",
+      "sha256": "9e4fa34ddcca0c272be51291955657eb2ee0990d04947b999918e9079cdfdc94",
+      "width": 967,
+      "height": 538,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": []
+    },
+    {
+      "id": "02",
+      "file": "images/02.png",
+      "source": "02.jpeg.png",
+      "sha256": "d76382bcc4e0d1b30fbb015c3f935e2c75fb71c87aa1daeac7fce92357200a4c",
+      "width": 962,
+      "height": 537,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": []
+    },
+    {
+      "id": "03",
+      "file": "images/03.png",
+      "source": "03.jpeg.png",
+      "sha256": "f4b82840e9a3586a1e35b76ef140f6adc374831530a33cd8a4446b754027a24a",
+      "width": 963,
+      "height": 542,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": []
+    },
+    {
+      "id": "04",
+      "file": "images/04.png",
+      "source": "04.jpeg.png",
+      "sha256": "8a80f5bf973ac009884f2fa27dac94b8db5f719a36ac65d347b9ba0e64302d57",
+      "width": 962,
+      "height": 542,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": []
+    },
+    {
+      "id": "05",
+      "file": "images/05.png",
+      "source": "05.jpeg.png",
+      "sha256": "3082bacb6199087bacb88492f2af869b0fb6a4241ec5030c5e55c586cee1899e",
+      "width": 632,
+      "height": 277,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Foreground lineup labelled using user-confirmed order. Background pieces still need labels. Not complete.",
+      "annotations": [
+        {
+          "label": "black-rook",
+          "bbox_xyxy": [
+            148,
+            136,
+            228,
+            257
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-knight",
+          "bbox_xyxy": [
+            249,
+            132,
+            320,
+            252
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-bishop",
+          "bbox_xyxy": [
+            330,
+            125,
+            397,
+            245
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-king",
+          "bbox_xyxy": [
+            399,
+            108,
+            465,
+            246
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-queen",
+          "bbox_xyxy": [
+            469,
+            98,
+            542,
+            235
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "black-pawn",
+          "bbox_xyxy": [
+            547,
+            139,
+            612,
+            240
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "file": "images/06.png",
+      "source": "06.jpeg.png",
+      "sha256": "07aca340b1609ef9a7089a8ca638baa0bd10644f8e56a97965ed2117200119c7",
+      "width": 642,
+      "height": 305,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Foreground lineup labelled using user-confirmed order. Background pieces still need labels. Not complete.",
+      "annotations": [
+        {
+          "label": "white-rook",
+          "bbox_xyxy": [
+            169,
+            108,
+            235,
+            211
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-knight",
+          "bbox_xyxy": [
+            246,
+            110,
+            306,
+            216
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-bishop",
+          "bbox_xyxy": [
+            309,
+            106,
+            370,
+            218
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-queen",
+          "bbox_xyxy": [
+            377,
+            96,
+            435,
+            223
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-king",
+          "bbox_xyxy": [
+            440,
+            104,
+            507,
+            224
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        },
+        {
+          "label": "white-pawn",
+          "bbox_xyxy": [
+            516,
+            138,
+            570,
+            230
+          ],
+          "provenance": "Foreground identity confirmed by user; box drawn by assistant"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "file": "images/07.png",
+      "source": "07.jpeg.png",
+      "sha256": "c8be15fc490e7a398abbc065bf8649701fcdca4e930da428f15ccdb85b8afed2",
+      "width": 977,
+      "height": 557,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": []
+    },
+    {
+      "id": "08",
+      "file": "images/08.png",
+      "source": "08.jpeg.png",
+      "sha256": "a570b0b1f7f596415b4937977fc49cc3b861db2a658215e8ed5f6eeb24005bce",
+      "width": 972,
+      "height": 555,
+      "reviewed": false,
+      "excluded": false,
+      "note": "Needs all visible pieces labelled and reviewed.",
+      "annotations": []
+    },
+    {
+      "id": "09",
+      "file": "images/09.png",
+      "source": "09.jpeg.png",
+      "sha256": "e4da4869142ab1e7f86fdffd528dd98a5976f83f1b575c0900b55093308bcf21",
+      "width": 961,
+      "height": 540,
+      "reviewed": false,
+      "excluded": true,
+      "note": "Blurry image: excluded from initial training; retain for later difficult-case testing.",
+      "annotations": []
+    }
+  ],
+  "status": "Annotation seed only. No training run or dataset split has been made."
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Chess dataset review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101010;color:#eee;font:16px system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}h1{font-size:25px}p{line-height:1.5;color:#ccc}button,select,input{font:inherit}button,select{background:#242424;color:white;border:1px solid #666;padding:9px 12px;border-radius:5px;cursor:pointer}button:hover{background:#404040}button:disabled{opacity:.4;cursor:default}.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:16px 0}.stage{position:relative;display:inline-block;max-width:100%;border:1px solid #777;line-height:0}.stage img{display:block;width:100%;height:auto}.stage canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:crosshair}#note{padding:12px;border-left:3px solid white;background:#202020}#pieces{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}#pieces button.active{outline:3px solid #fff}#status{min-height:1.5em}label{display:inline-flex;gap:8px;align-items:center}small{color:#aaa}a{color:white}
+</style></head><body><main>
+<h1>Chess dataset review</h1>
+<p>Select a piece type, then drag a tight box around the visible piece, including its base. Label background pieces too. Click a box or its button to select it; use Delete selected to remove it. To adjust a box, delete it and redraw.</p>
+<p><strong>These are seed annotations, not a trained detector.</strong> The two foreground lineups have confirmed identities. Other pieces still need annotation.</p>
+<div class="toolbar"><button id="previous">Previous</button><select id="imageSelect" aria-label="Image"></select><button id="next">Next</button><span id="count"></span></div>
+<div id="note"></div>
+<div class="toolbar"><select id="classSelect" aria-label="Piece type"></select><button id="remove" disabled>Delete selected</button><label><input type="checkbox" id="reviewed">All visible pieces labelled and checked</label><label><input type="checkbox" id="excluded">Exclude this image</label></div>
+<div class="stage" id="stage"><img id="photo" alt="Chess image to annotate"><canvas id="overlay"></canvas></div>
+<div id="pieces"></div>
+<div class="toolbar"><button id="save">Save annotations JSON</button><button id="load">Load annotations JSON</button><input id="file" type="file" accept=".json" hidden></div>
+<p id="status" role="status"></p>
+<small>Edits stay in this page's memory until you save the JSON. Save before closing or reloading. Loading replaces the current annotations after confirmation. Images stay on your PC; this page makes no API requests.</small>
+</main><script src="dataset.js"></script><script>
+let data=structuredClone(window.INITIAL_DATASET),index=0,selected=-1,drag=null,dirty=false;
+const $=id=>document.getElementById(id),ctx=$('overlay').getContext('2d');
+const current=()=>data.images[index];
+function message(s){$('status').textContent=s}
+function markDirty(){dirty=true;current().reviewed=false;$('reviewed').checked=false;message('Unsaved edits. Save annotations JSON when finished.');}
+function populate(){
+ $('imageSelect').replaceChildren(...data.images.map((im,i)=>new Option(im.id+' — '+im.annotations.length+' boxes',i)));
+ $('classSelect').replaceChildren(...data.classes.map(c=>new Option(c,c)));
+}
+function show(){
+ selected=-1;drag=null;$('imageSelect').value=index;
+ $('note').textContent=current().note;$('reviewed').checked=current().reviewed;$('excluded').checked=current().excluded;
+ $('previous').disabled=index===0;$('next').disabled=index===data.images.length-1;
+ $('count').textContent=`Image ${index+1} of ${data.images.length}`;
+ $('photo').src=current().file;list();
+}
+$('photo').onload=()=>{ $('overlay').width=$('photo').naturalWidth;$('overlay').height=$('photo').naturalHeight;draw(); };
+$('photo').onerror=()=>message('Image could not load. Keep this HTML, dataset.js and images folder together.');
+function list(){
+ $('pieces').replaceChildren(...current().annotations.map((a,i)=>{let b=document.createElement('button');b.textContent=`${i+1}: ${a.label}`;if(i===selected)b.className='active';b.onclick=()=>{selected=i;list();draw()};return b}));
+ $('remove').disabled=selected<0;
+ $('imageSelect').options[index].textContent=current().id+' — '+current().annotations.length+' boxes';
+}
+function draw(){
+ ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+ const scale=ctx.canvas.width/Math.max(1,$('overlay').getBoundingClientRect().width);
+ ctx.font=`${Math.round(12*scale)}px sans-serif`;ctx.lineWidth=2*scale;
+ current().annotations.forEach((a,i)=>{
+  const [x1,y1,x2,y2]=a.bbox_xyxy;ctx.strokeStyle=i===selected?'#ffdc60':'#00ff88';ctx.strokeRect(x1,y1,x2-x1,y2-y1);
+  const text=`${i+1} ${a.label}`,tw=ctx.measureText(text).width,ty=Math.max(16*scale,y1);
+  ctx.fillStyle='#101010';ctx.fillRect(x1,ty-16*scale,tw+4*scale,16*scale);ctx.fillStyle='#fff';ctx.fillText(text,x1+2*scale,ty-3*scale);
+ });
+ if(drag){ctx.strokeStyle='#fff';ctx.strokeRect(drag.x,drag.y,drag.endX-drag.x,drag.endY-drag.y)}
+}
+function point(e){const r=$('overlay').getBoundingClientRect();return {x:Math.max(0,Math.min(current().width,(e.clientX-r.left)*current().width/r.width)),y:Math.max(0,Math.min(current().height,(e.clientY-r.top)*current().height/r.height))}}
+$('overlay').onpointerdown=e=>{const p=point(e);drag={...p,endX:p.x,endY:p.y};$('overlay').setPointerCapture(e.pointerId)};
+$('overlay').onpointermove=e=>{if(!drag)return;const p=point(e);drag.endX=p.x;drag.endY=p.y;draw()};
+$('overlay').onpointerup=e=>{
+ if(!drag)return;const p=point(e),start=drag;drag=null;
+ if(Math.abs(p.x-start.x)>5&&Math.abs(p.y-start.y)>5){current().annotations.push({label:$('classSelect').value,bbox_xyxy:[Math.round(Math.min(start.x,p.x)),Math.round(Math.min(start.y,p.y)),Math.round(Math.max(start.x,p.x)),Math.round(Math.max(start.y,p.y))],provenance:'Manually labelled in review page'});selected=current().annotations.length-1;markDirty()}
+ else{selected=current().annotations.findLastIndex(a=>{const [x1,y1,x2,y2]=a.bbox_xyxy;return p.x>=x1&&p.x<=x2&&p.y>=y1&&p.y<=y2})}
+ list();draw();
+};
+$('overlay').onpointercancel=()=>{drag=null;draw()};
+$('remove').onclick=()=>{if(selected<0)return;current().annotations.splice(selected,1);selected=-1;markDirty();list();draw()};
+$('previous').onclick=()=>{index--;show()};$('next').onclick=()=>{index++;show()};$('imageSelect').onchange=e=>{index=Number(e.target.value);show()};
+$('reviewed').onchange=e=>{current().reviewed=e.target.checked;dirty=true;message('Review status changed; save the JSON.')};
+$('excluded').onchange=e=>{current().excluded=e.target.checked;dirty=true;message('Exclusion status changed; save the JSON.')};
+$('save').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='annotations-reviewed.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);dirty=false;message('Download requested. Keep annotations-reviewed.json with your dataset.')};
+$('load').onclick=()=>$('file').click();
+$('file').onchange=async e=>{try{const f=e.target.files[0];if(!f)return;const next=JSON.parse(await f.text());
+ if(next.schema_version!==1||JSON.stringify(next.classes)!==JSON.stringify(data.classes)||next.images.length!==data.images.length)throw Error('Dataset schema does not match.');
+ next.images.forEach((im,i)=>{const old=data.images[i];if(im.id!==old.id||im.file!==old.file||im.width!==old.width||im.height!==old.height||typeof im.reviewed!=='boolean'||typeof im.excluded!=='boolean'||!Array.isArray(im.annotations))throw Error('Image metadata does not match.');im.annotations.forEach(a=>{const b=a.bbox_xyxy;if(!next.classes.includes(a.label)||!Array.isArray(b)||b.length!==4||!b.every(Number.isFinite)||b[0]<0||b[1]<0||b[2]>im.width||b[3]>im.height||b[0]>=b[2]||b[1]>=b[3])throw Error('Invalid annotation box.');})});
+ if(dirty&&!confirm('Replace your unsaved edits with this file?'))return;data=next;dirty=false;populate();show();message('Annotations loaded.');
+ }catch(err){message('Could not load: '+err.message)}finally{$('file').value=''}};
+window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}});window.addEventListener('resize',draw);
+populate();index=data.images.findIndex(im=>im.id==='10');if(index<0)index=0;show();
+</script></body></html>

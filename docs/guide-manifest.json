@@ -1,0 +1,11 @@
+{
+  "chess-mode/app.py": "89df0674ab7e31f5e1781f851664831ecd2546ec45852a154945095e2be0f6ec",
+  "chess-mode/game.py": "3c35d78b364e24ce7e046f0b6c50d578ca19271cfa4806fe6b894c1026dd4232",
+  "chess-mode/templates/chess.html": "35b1281ed1521db81d02f1fdbd2a111784df21afaa85131b980ce029051ba2e3",
+  "chess-mode/test_game.py": "2f7f3d2607456e37844e6251338ede3e1b90e086b40966ea6eb56bd9637f6547",
+  "chess-mode/requirements.txt": "c5354b312fe7ae36ca5de6853eaf17755a62c0296433e758b6812a9a7e22060b",
+  "chess-mode/probe_pieces.py": "52c57fffee299b496c862f662481dcf96531818edad601fd4964084be075f2e0",
+  "pdf_pages": 40,
+  "pdf_bytes": 105458,
+  "guide_words": 7151
+}
